@@ -1,0 +1,23 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>IRCTC availability extension</title>
+    <style>
+      body {
+        font-family: "Helvetica", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>IRCTC Availability Check</h1>
+    <button id="checkAvailability">Check</button>
+  </body>
+</html>
+

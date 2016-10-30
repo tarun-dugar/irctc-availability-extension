@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "IRCTC Availability Check",
+  "description": "This extension shows the what tickets are available along with train name and class for all the trains without having to click on a particular train and class",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
